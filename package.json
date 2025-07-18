@@ -1,0 +1,20 @@
+{
+  "name": "barber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^9.31.0",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}
