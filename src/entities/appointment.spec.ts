@@ -2,6 +2,7 @@ import { expect, test } from 'vitest'
 import { Appointment } from './appointment'
 import { getFutureDate } from '../tests/utils/get-future-date'
 
+//para realizar o teste, será necessário criar uma nova "Classe" para que seja colhidas as informações que irão ser usadas.
 test('create an appointment', () => {
     const startsAt = getFutureDate('2025-07-17')
     const endsAt = getFutureDate('2025-07-18')

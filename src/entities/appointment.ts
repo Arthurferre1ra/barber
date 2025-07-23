@@ -1,10 +1,11 @@
+//realizando a tipagem dos dados
 export interface AppointmentProps {
     costumer: string
     startsAt: Date
     endsAt: Date
 }
 
-
+//criando a classe de agendamento (referenciando a interface AppointmentProps) + Get´s
 export class Appointment {
     private props: AppointmentProps
 
@@ -20,6 +21,7 @@ export class Appointment {
         return this.props.endsAt;
     }
 
+    //informações/propriedades
     constructor (props: AppointmentProps) {
         const { startsAt, endsAt } = props;
 
